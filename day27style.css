@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#FIRST_main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #143d59;
+    z-index: 99999;
+}
+#FIRST_main img{ 
+    position: absolute;
+    height: 14rem;
+    width: 14rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}
+.lines{
+    position: absolute;
+    height: 100%;
+    width: .3rem;
+    background-color: rgb(157, 123, 21);
+}
+#l1{
+    top: 0;
+    left: 5rem;
+}
+#l2{
+    right: 5rem;
+    bottom: 0;
+}
+#main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#left{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+#nav{ 
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 6rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#nav h3{ 
+    font-family: 'Cinzel', serif;
+    color: rgb(157, 123, 21);
+    font-weight: 900;
+}
+#nav a { 
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize; 
+}
+#nav a h4{ 
+    opacity: .6;
+}
+#lone{
+    height: 60%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#ltwo{
+    height: 40%;
+    width: 100%;
+} 
+#ltwo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#main-text{
+    height: 21rem;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+} 
+#contant{
+    position: absolute;
+    left: 2rem;
+    top: 8rem;
+    height: 17rem;
+    width: 37rem;
+    background-color: rgb(255, 255, 255);
+}
+#contant h1{
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    line-height: 4rem;
+}
+button{
+    height: 3rem;
+    width: 8rem;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 184, 4);
+    color:rgb(255, 184, 4) ;   
+    text-transform: capitalize;
+  }
+#contant p{
+    opacity: .4;
+}
+#right{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+#rone{ 
+    overflow: hidden;
+    height: 100%;
+    width: 85%;  
+}
+#rone img{ 
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#rtwo{
+    height: 100%;
+    width: 15%;
+}
+#nav2{
+    margin-top: 6rem;
+    right: 0%;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow: hidden;
+     }    
+#nav2 a{
+    transform: rotate(90deg); 
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+}
+#nav2 a h5{ 
+    opacity: .6;
+    }
+#icon{
+    position: absolute;
+    height: 6rem;
+    width: 7rem;
+    background-color: rgb(255, 174, 0);
+ }
+#icon i{
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
